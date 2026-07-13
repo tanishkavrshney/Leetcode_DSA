@@ -7,6 +7,7 @@ class Solution {
             if(flowerbed[i]==0 && left==0 && right==0){
                 n--;
                 flowerbed[i]=1;
+                
             }
         }
         if(n>0){
